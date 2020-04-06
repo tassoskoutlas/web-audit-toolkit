@@ -22,7 +22,7 @@ fi
 echo "Starting content url audit ..."
 
 # Spider internal urls and save to file.
-wget -r -nd --spider --force-html -R "${EXCLUDE}" "${URL}" -w "${WAIT}" 2>&1 | egrep -o 'https?://[^ ]+' | sort | uniq > "${FILE}_urls-content.txt"
+wget -r -nd --spider --force-html -R "${EXCLUDE}" "${URL}" -w "${WAIT}" 2>&1 | egrep -o 'https?://[^ ]+' | sort | uniq > "${FILE}_audit-content.txt"
 
 echo "Done"
 
