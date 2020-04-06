@@ -35,7 +35,7 @@ Before you start any audit you need to read the contents of `robots.txt` and res
 wget https://example.com/robots.txt && cat robots.txt
 ```
 
-Usage:
+Outcome:
 
 - Check if `crawl-delay` is present and take note of its value
 - Use `crawl-delay` value when calling the scripts of this directory
@@ -46,7 +46,7 @@ Extract the canonical URL you need to be working with:
 curl -I https://example.com
 ```
 
-Usage:
+Outcome:
 
 - If not 200 then location header contains redirect link with the canonical URL
 
@@ -56,7 +56,7 @@ Understand request headers
 curl -I https://example.com
 ```
 
-Usage:
+Outcome:
 
 - Provides info on cookies and headers that often lead to functionality
 
@@ -66,7 +66,7 @@ Perform content audit of website:
 audit-content URL crawl_delay
 ```
 
-Usage:
+Outcome:
 
 - Understand the amount of content a website holds
 - Understand URL structure
@@ -78,7 +78,7 @@ List all links on a page:
 audit-links.sh URL filename
 ```
 
-Usage:
+Outcome:
 
 - Understand external links that are present on the webpage
 - Find out domains linked
