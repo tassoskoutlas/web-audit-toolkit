@@ -29,7 +29,7 @@ Run your audits.
 
 ## Website forensics
 
-Before you start any audit you need to read the contents of `robots.txt` and respect it:
+Before you start any audit you need to read the contents of `robots.txt` and respect them:
 
 ```
 wget https://example.com/robots.txt && cat robots.txt
@@ -37,7 +37,7 @@ wget https://example.com/robots.txt && cat robots.txt
 
 Usage:
 
-- Check if `crawl-delay` is present and take not of its value
+- Check if `crawl-delay` is present and take note of its value
 - Use `crawl-delay` value when calling the scripts of this directory
 
 Extract the canonical URL you need to be working with:
@@ -63,7 +63,7 @@ Usage:
 Perform content audit of website:
 
 ```
-audit-content URL
+audit-content URL crawl_delay
 ```
 
 Usage:
