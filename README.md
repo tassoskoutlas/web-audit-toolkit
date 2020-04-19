@@ -72,6 +72,28 @@ Outcome:
 - Understand URL structure
 - Find interesting files that may be open from the file system
 
+Cross reference content in Google:
+
+```
+site:example.com
+```
+
+Outcome:
+
+- Get number of indexed pages from Google
+
+Find out how often a website publishes. Use the inbuild date range tools that Google provides in relation to the following query:
+
+```
+site:example.com
+```
+
+Outcome:
+
+- Understand content update frequency
+- Gives insights into how big the digital team may be
+- Gives insights into which web assets are more important
+
 List all links on a page:
 
 ```
@@ -83,6 +105,27 @@ Outcome:
 - Understand external links that are present on the webpage
 - Find out domains linked
 - Find out sub-domains that may control more
+
+Find out backlinks (can be combined with date range):
+
+```
+link:example.com -site:example.com
+```
+
+Outcomes:
+
+- Understand affiliate sites
+- Understand other sites of the same group
+
+Explore all sudbomains for a given site (excluding www):
+
+```
+site:*.example.com -www
+```
+
+Outcome:
+
+- Understand other websites that are maintained
 
 ## Helpers
 
