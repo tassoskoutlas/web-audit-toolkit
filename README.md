@@ -27,7 +27,7 @@ ln -s ~/web-audit-toolkit/audit-links.sh .
 ```
 Run your audits.
 
-## Website forensics
+## Content
 
 Before you start any audit you need to read the contents of `robots.txt` and respect them:
 
@@ -93,6 +93,8 @@ Outcome:
 - Understand content update frequency
 - Gives insights into how big the digital team may be
 - Gives insights into which web assets are more important
+
+## Links
 
 List all links on a page:
 
