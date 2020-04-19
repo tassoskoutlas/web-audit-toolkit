@@ -71,6 +71,7 @@ Outcome:
 - Understand the amount of content a website holds
 - Understand URL structure
 - Find interesting files that may be open from the file system
+- Understand assets (pdf, docx, etc) used in domain
 
 Cross reference content in Google:
 
@@ -93,6 +94,28 @@ Outcome:
 - Understand content update frequency
 - Gives insights into how big the digital team may be
 - Gives insights into which web assets are more important
+
+Find duplicate content:
+
+```
+intitle:"Content excerpt that unique identifies content" -site:example.com
+```
+
+Outcome:
+
+- Understand if pieces of content are copied in other site
+- Remove the site operator to check how often a piece of content repeats
+
+Find all indexed files:
+
+```
+site:example.com (filetype:pdf AND filetype:docx)
+```
+
+Outcome:
+
+- Get a list of all files for given filetypes
+- Check `robots.txt` to see unindexed paths that may reveal info
 
 ## Links
 
